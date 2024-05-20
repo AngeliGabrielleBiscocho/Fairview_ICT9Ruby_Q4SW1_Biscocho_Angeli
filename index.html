@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+<title> piggybank.com </title>
+<style>
+
+#nyaya {
+border: 15px brown dashed;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+#name {
+padding-top: 20px;
+font-size: 80px;
+border: 10px brown dotted;
+text-decoration: underline overline double;
+}
+
+#title {
+font-size: 30px;
+text-decoration: underline;
+background-color: #1fb902;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+#btn, #btn2, #btn3, #btn4 {
+font-size: 40px;
+}
+
+#bg {
+background-color: #058715;
+}
+
+#buttondiv {
+background-color: #1fb902;
+padding-top: 10px;
+}
+
+#notebook {
+background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperxyz.com%2Fwp-content%2Fuploads%2FGif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-46.gif&f=1&nofb=1&ipt=32df631ed47819121cac0e8ee01e1745b406f0dee3c014da177bd69cac989599&ipo=images');
+background-size: cover;
+padding-top: 30px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+body {
+background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbestanimations.com%2FMoney%2Fmoney-animated-gif-4.gif&f=1&nofb=1&ipt=2ef4003b9a73dce764f74f15e1a710b9f41244b0ac2920176f3f66817dce4118&ipo=images');
+background-attachment: fixed;
+background-size: cover;
+font-family: "Pixelify Sans", sans-serif;
+}
+</style>
+</head>
+<body>
+<audio autoplay loop>
+<source src="https://www.sndup.net/c6hj/d" type="audio/mpeg">
+</audio>
+<center>
+<h1 class="bg-success text-white" id="name">Peso Converter</h1>
+<br><br><br>
+<div class="container container-fluid bg-success" id="nyaya">
+<div id="bg">
+<h1 id="title" class="text-light"> Click the buttons below to convert 100 php into different currencies </h1>
+<div id="notebook">
+<img src="https://i.postimg.cc/SNd2ZSF5/output-onlinegiftools-1.gif" alt="sorrynomoneyman" width="300px">
+<img src="https://i.postimg.cc/c4p8xjDm/output-onlinegiftools-3.gif" alt="sorry" width="300px">
+</div>
+<div id="buttondiv">
+<a type="button" href="page4.html" class="btn btn-danger" id="btn" onclick="load()">TWD </a>
+&emsp;
+<a type="button" href="page3.html" class="btn btn-primary" id="btn2" onclick="scload()">USD </a>
+&emsp;
+<a type="button" href="page2.html" class="btn btn-warning" id="btn3" onclick="thload()">JPY </a>
+&emsp;
+<a type="button" href="page5.html" class="btn btn-info" id="btn4" onclick="grload()">INR </a>
+</div>
+</div>
+</div>
+</center>
+<script type="text/javascript">
+function load() {
+document.getElementById('btn').innerHTML="Converting...";
+}
+
+function scload() {
+document.getElementById('btn2').innerHTML="Converting...";
+}
+function thload() {
+document.getElementById('btn3').innerHTML="Converting...";
+}
+function grload() {
+document.getElementById('btn4').innerHTML="Converting...";
+}
+</script>
+</body>
+</html>
